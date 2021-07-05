@@ -1,7 +1,5 @@
-# Welcome
+# Welcome to my homepage
 
 My first Hugo website.
 
-This is a test.
-
-Does it work ?
+[About](/posts/about/)
