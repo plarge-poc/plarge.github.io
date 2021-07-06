@@ -1,0 +1,2 @@
+docs/* -linguist-documentation
+makefile -linguist-detectable
