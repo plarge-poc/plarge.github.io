@@ -1,1 +1,105 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>plarge.github.io</title><link>https://plarge.github.io/</link><description>Recent content on plarge.github.io</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 07 Jul 2021 09:35:57 +0200</lastBuildDate><atom:link href="https://plarge.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Hello World</title><link>https://plarge.github.io/posts/hello-world/</link><pubDate>Wed, 07 Jul 2021 09:35:57 +0200</pubDate><guid>https://plarge.github.io/posts/hello-world/</guid><description>Bienvenue Bienvenue sur mon site Hugo.</description></item><item><title>My First Post</title><link>https://plarge.github.io/posts/my-first-post/</link><pubDate>Wed, 07 Jul 2021 09:35:57 +0200</pubDate><guid>https://plarge.github.io/posts/my-first-post/</guid><description>Hello World This is my first post.</description></item><item><title>About</title><link>https://plarge.github.io/posts/about/</link><pubDate>Tue, 26 Mar 2019 08:47:11 +0100</pubDate><guid>https://plarge.github.io/posts/about/</guid><description>A propos de MOI Vous saurez tout sur moi (ou pas) !</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>plarge.github.io</title><link>https://plarge.github.io/</link><description>Recent content on plarge.github.io</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 07 Jul 2021 09:35:57 +0200</lastBuildDate><atom:link href="https://plarge.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Resultados de Búsqueda</title><link>https://plarge.github.io/search/</link><pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate><guid>https://plarge.github.io/search/</guid><description>Este archivo existe únicamente para responder a la URL /search con la plantilla de diseño search relacionada.
+No se muestra ningún contenido aquí, todo el contenido se basa en la plantilla layouts/page/search.html
+Establecer una prioridad muy baja en el mapa del sitio le dirá a los motores de búsqueda que éste no es un contenido importante.
+Esta implementación utiliza Fusejs, jquery y mark.js
+Configuración inicial La búsqueda depende del tipo de contenido de salida adicional de JSON en config.</description></item><item><title>Resultados de Búsqueda</title><link>https://plarge.github.io/search/</link><pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate><guid>https://plarge.github.io/search/</guid><description>Este archivo existe únicamente para responder a la URL /search con la plantilla de diseño search relacionada.
+No se muestra ningún contenido aquí, todo el contenido se basa en la plantilla layouts/page/search.html
+Establecer una prioridad muy baja en el mapa del sitio le dirá a los motores de búsqueda que éste no es un contenido importante.
+Esta implementación utiliza Fusejs, jquery y mark.js
+Configuración inicial La búsqueda depende del tipo de contenido de salida adicional de JSON en config.</description></item><item><title>Search Results</title><link>https://plarge.github.io/search/</link><pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate><guid>https://plarge.github.io/search/</guid><description>This file exists solely to respond to /search URL with the related search layout template.
+No content shown here is rendered, all content is based in the template layouts/page/search.html
+Setting a very low sitemap priority will tell search engines this is not important content.
+This implementation uses Fusejs, jquery and mark.js
+Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description></item><item><title>Search Results</title><link>https://plarge.github.io/search/</link><pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate><guid>https://plarge.github.io/search/</guid><description>This file exists solely to respond to /search URL with the related search layout template.
+No content shown here is rendered, all content is based in the template layouts/page/search.html
+Setting a very low sitemap priority will tell search engines this is not important content.
+This implementation uses Fusejs, jquery and mark.js
+Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description></item><item><title>Search Results</title><link>https://plarge.github.io/search/</link><pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate><guid>https://plarge.github.io/search/</guid><description>This file exists solely to respond to /search URL with the related search layout template.
+No content shown here is rendered, all content is based in the template layouts/page/search.html
+Setting a very low sitemap priority will tell search engines this is not important content.
+This implementation uses Fusejs, jquery and mark.js
+Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description></item><item><title>Search Results</title><link>https://plarge.github.io/search/</link><pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate><guid>https://plarge.github.io/search/</guid><description>This file exists solely to respond to /search URL with the related search layout template.
+No content shown here is rendered, all content is based in the template layouts/page/search.html
+Setting a very low sitemap priority will tell search engines this is not important content.
+This implementation uses Fusejs, jquery and mark.js
+Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description></item><item><title>Search Results</title><link>https://plarge.github.io/search/</link><pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate><guid>https://plarge.github.io/search/</guid><description>This file exists solely to respond to /search URL with the related search layout template.
+No content shown here is rendered, all content is based in the template layouts/page/search.html
+Setting a very low sitemap priority will tell search engines this is not important content.
+This implementation uses Fusejs, jquery and mark.js
+Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description></item><item><title>Search Results</title><link>https://plarge.github.io/search/</link><pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate><guid>https://plarge.github.io/search/</guid><description>This file exists solely to respond to /search URL with the related search layout template.
+No content shown here is rendered, all content is based in the template layouts/page/search.html
+Setting a very low sitemap priority will tell search engines this is not important content.
+This implementation uses Fusejs, jquery and mark.js
+Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description></item><item><title>Search Results</title><link>https://plarge.github.io/search/</link><pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate><guid>https://plarge.github.io/search/</guid><description>This file exists solely to respond to /search URL with the related search layout template.
+No content shown here is rendered, all content is based in the template layouts/page/search.html
+Setting a very low sitemap priority will tell search engines this is not important content.
+This implementation uses Fusejs, jquery and mark.js
+Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description></item><item><title>Search Results</title><link>https://plarge.github.io/search/</link><pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate><guid>https://plarge.github.io/search/</guid><description>This file exists solely to respond to /search URL with the related search layout template.
+No content shown here is rendered, all content is based in the template layouts/page/search.html
+Setting a very low sitemap priority will tell search engines this is not important content.
+This implementation uses Fusejs, jquery and mark.js
+Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description></item><item><title>Search Results</title><link>https://plarge.github.io/search/</link><pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate><guid>https://plarge.github.io/search/</guid><description>This file exists solely to respond to /search URL with the related search layout template.
+No content shown here is rendered, all content is based in the template layouts/page/search.html
+Setting a very low sitemap priority will tell search engines this is not important content.
+This implementation uses Fusejs, jquery and mark.js
+Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description></item><item><title>Search Results</title><link>https://plarge.github.io/search/</link><pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate><guid>https://plarge.github.io/search/</guid><description>This file exists solely to respond to /search URL with the related search layout template.
+No content shown here is rendered, all content is based in the template layouts/page/search.html
+Setting a very low sitemap priority will tell search engines this is not important content.
+This implementation uses Fusejs, jquery and mark.js
+Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description></item><item><title>Search Results</title><link>https://plarge.github.io/search/</link><pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate><guid>https://plarge.github.io/search/</guid><description>This file exists solely to respond to /search URL with the related search layout template.
+No content shown here is rendered, all content is based in the template layouts/page/search.html
+Setting a very low sitemap priority will tell search engines this is not important content.
+This implementation uses Fusejs, jquery and mark.js
+Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description></item><item><title>Search Results</title><link>https://plarge.github.io/search/</link><pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate><guid>https://plarge.github.io/search/</guid><description>This file exists solely to respond to /search URL with the related search layout template.
+No content shown here is rendered, all content is based in the template layouts/page/search.html
+Setting a very low sitemap priority will tell search engines this is not important content.
+This implementation uses Fusejs, jquery and mark.js
+Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description></item><item><title>Search Results</title><link>https://plarge.github.io/search/</link><pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate><guid>https://plarge.github.io/search/</guid><description>This file exists solely to respond to /search URL with the related search layout template.
+No content shown here is rendered, all content is based in the template layouts/page/search.html
+Setting a very low sitemap priority will tell search engines this is not important content.
+This implementation uses Fusejs, jquery and mark.js
+Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description></item><item><title>Search Results</title><link>https://plarge.github.io/search/</link><pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate><guid>https://plarge.github.io/search/</guid><description>This file exists solely to respond to /search URL with the related search layout template.
+No content shown here is rendered, all content is based in the template layouts/page/search.html
+Setting a very low sitemap priority will tell search engines this is not important content.
+This implementation uses Fusejs, jquery and mark.js
+Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description></item><item><title>Search Results</title><link>https://plarge.github.io/search/</link><pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate><guid>https://plarge.github.io/search/</guid><description>This file exists solely to respond to /search URL with the related search layout template.
+No content shown here is rendered, all content is based in the template layouts/page/search.html
+Setting a very low sitemap priority will tell search engines this is not important content.
+This implementation uses Fusejs, jquery and mark.js
+Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description></item><item><title>Search Results</title><link>https://plarge.github.io/search/</link><pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate><guid>https://plarge.github.io/search/</guid><description>This file exists solely to respond to /search URL with the related search layout template.
+No content shown here is rendered, all content is based in the template layouts/page/search.html
+Setting a very low sitemap priority will tell search engines this is not important content.
+This implementation uses Fusejs, jquery and mark.js
+Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description></item><item><title>Search Results</title><link>https://plarge.github.io/search/</link><pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate><guid>https://plarge.github.io/search/</guid><description>This file exists solely to respond to /search URL with the related search layout template.
+No content shown here is rendered, all content is based in the template layouts/page/search.html
+Setting a very low sitemap priority will tell search engines this is not important content.
+This implementation uses Fusejs, jquery and mark.js
+Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description></item><item><title>Search Results</title><link>https://plarge.github.io/search/</link><pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate><guid>https://plarge.github.io/search/</guid><description>This file exists solely to respond to /search URL with the related search layout template.
+No content shown here is rendered, all content is based in the template layouts/page/search.html
+Setting a very low sitemap priority will tell search engines this is not important content.
+This implementation uses Fusejs, jquery and mark.js
+Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description></item><item><title>Search Results</title><link>https://plarge.github.io/search/</link><pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate><guid>https://plarge.github.io/search/</guid><description>This file exists solely to respond to /search URL with the related search layout template.
+No content shown here is rendered, all content is based in the template layouts/page/search.html
+Setting a very low sitemap priority will tell search engines this is not important content.
+This implementation uses Fusejs, jquery and mark.js
+Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description></item><item><title>Search Results</title><link>https://plarge.github.io/search/</link><pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate><guid>https://plarge.github.io/search/</guid><description>This file exists solely to respond to /search URL with the related search layout template.
+No content shown here is rendered, all content is based in the template layouts/page/search.html
+Setting a very low sitemap priority will tell search engines this is not important content.
+This implementation uses Fusejs, jquery and mark.js
+Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description></item><item><title>Search Results</title><link>https://plarge.github.io/search/</link><pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate><guid>https://plarge.github.io/search/</guid><description>This file exists solely to respond to /search URL with the related search layout template.
+No content shown here is rendered, all content is based in the template layouts/page/search.html
+Setting a very low sitemap priority will tell search engines this is not important content.
+This implementation uses Fusejs, jquery and mark.js
+Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description></item><item><title>অনুসন্ধানের ফলাফল</title><link>https://plarge.github.io/search/</link><pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate><guid>https://plarge.github.io/search/</guid><description>This file exists solely to respond to /search URL with the related search layout template.
+No content shown here is rendered, all content is based in the template layouts/page/search.html
+Setting a very low sitemap priority will tell search engines this is not important content.
+This implementation uses Fusejs, jquery and mark.js
+Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description></item><item><title>অনুসন্ধানের ফলাফল</title><link>https://plarge.github.io/search/</link><pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate><guid>https://plarge.github.io/search/</guid><description>This file exists solely to respond to /search URL with the related search layout template.
+No content shown here is rendered, all content is based in the template layouts/page/search.html
+Setting a very low sitemap priority will tell search engines this is not important content.
+This implementation uses Fusejs, jquery and mark.js
+Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description></item><item><title>Hello World</title><link>https://plarge.github.io/posts/hello-world/</link><pubDate>Wed, 07 Jul 2021 09:35:57 +0200</pubDate><guid>https://plarge.github.io/posts/hello-world/</guid><description>Bienvenue Bienvenue sur mon site Hugo.</description></item><item><title>My First Post</title><link>https://plarge.github.io/posts/my-first-post/</link><pubDate>Wed, 07 Jul 2021 09:35:57 +0200</pubDate><guid>https://plarge.github.io/posts/my-first-post/</guid><description>Hello World This is my first post.</description></item><item><title>About</title><link>https://plarge.github.io/posts/about/</link><pubDate>Tue, 26 Mar 2019 08:47:11 +0100</pubDate><guid>https://plarge.github.io/posts/about/</guid><description>A propos de MOI Vous saurez tout sur moi (ou pas) !</description></item><item><title>Search Results</title><link>https://plarge.github.io/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://plarge.github.io/search/</guid><description>This file exists solely to respond to /search URL with the related search layout template.
+No content shown here is rendered, all content is based in the template layouts/page/search.html
+Setting a very low sitemap priority will tell search engines this is not important content.
+This implementation uses Fusejs, jquery and mark.js
+Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description></item></channel></rss>
