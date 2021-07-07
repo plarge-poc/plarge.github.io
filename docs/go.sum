@@ -2,3 +2,5 @@ github.com/hugo-toha/toha v3.1.0+incompatible h1:oQb77jvFFZh/Ooc+d1lPCnc5396CI7V
 github.com/hugo-toha/toha v3.1.0+incompatible/go.mod h1:qWc5eabCahf5IiVbsO6n0TTZ1eN93x6/sepETqKESk0=
 github.com/matcornic/hugo-theme-learn v0.0.0-20210331234833-d198cbe65f06 h1:Vxgl1/dyKpZDstVWmxNL9BauEGxLXrcbe1T09/dEzTY=
 github.com/matcornic/hugo-theme-learn v0.0.0-20210331234833-d198cbe65f06/go.mod h1:YoToDcvQxmAFhpEuapKUysBDEBckqDEssqTrmeZ2+uY=
+github.com/vimux/mainroad v0.0.0-20210616131810-0bb81035679d h1:n6RuWCM4OXfA2d0AZ6OX0XIEvklreBjSW1/7RQmrNfo=
+github.com/vimux/mainroad v0.0.0-20210616131810-0bb81035679d/go.mod h1:Gk9iXsARNmAg+2szyzue3lvbLsvJQPNmKqOrbSjYCPM=
