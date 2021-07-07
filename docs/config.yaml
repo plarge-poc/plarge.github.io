@@ -1,7 +1,4 @@
 baseURL: "https://www.plarge.net"
-
-languageCode: "en-us"
-title: "plarge.github.io"
 relativeURLs: true
 canonifyURLs: true
 
@@ -9,7 +6,7 @@ resourceDir: ../resources
 
 module:
   imports:
-  - path: github.com/hugo-toha/toha
+  - path: github.com/vimux/mainroad
   
 # At least HTML and JSON are required for the main HTML content and
 # client-side JavaScript search
@@ -19,5 +16,49 @@ outputs:
     - "RSS"
     - "JSON"
 
+languageCode: "en-us"
+title: "Pierre Large"
+
 # Site parameters
 params:
+  description: "Pierre Large, artisan développeur" # Site description. Used in meta description
+  #customCSS: "css/custom.css" # Include custom CSS files
+  #customJS: "js/custom.js" # Include custom JS files
+  readmore: true # Show "Read more" button in list if true
+  mainSections:
+    - about
+    - posts
+  style:
+    vars:
+      highlightColor: "#e6af2e"
+  logo:
+    subtitle: "Artisan développeur .NET et agile"
+  sidebar:
+    home: "right"
+    widgets:
+      - "search"
+      - "recent"
+      - "categories"
+      - "taglist"
+  widgets:
+    recent_num: 5 # Set the number of articles in the "Recent articles" widget
+    categories_counter: false # Enable counter for each category in "Categories" widget
+    tags_counter: false # Enable counter for each tag in "Tags" widget
+
+# Menu parameters
+menu:
+  main:
+  - identifier: home
+    name: Home
+    params:
+      class: highlight-menu-item
+    pre: <i class='fa fa-heart'></i>
+    url: /
+    weight: 1
+  - identifier: about
+    name: About
+    params:
+      class: highlight-menu-item
+    pre: <i class='fa fa-heart'></i>
+    url: /about/
+    weight: 20
