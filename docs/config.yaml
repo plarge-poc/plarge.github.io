@@ -1,8 +1,8 @@
 baseURL: "https://plarge.github.io/"
 languageCode: "en-us"
 title: "plarge.github.io"
-RelativeURLs: true
-CanonifyURLs: true
+relativeURLs: true
+canonifyURLs: true
 
 module:
   imports:

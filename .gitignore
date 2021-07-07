@@ -1,0 +1,8 @@
+# Ignore the node_modules directory
+node_modules/
+
+# Ignore the resources directory
+resources/
+
+# Ignore the resources directory
+public/
