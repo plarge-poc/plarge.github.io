@@ -1,4 +1,5 @@
 baseURL: "https://plarge.github.io/"
+
 languageCode: "en-us"
 title: "plarge.github.io"
 relativeURLs: true
@@ -10,10 +11,13 @@ module:
   imports:
   - path: github.com/hugo-toha/toha
   
-params:
-
+# At least HTML and JSON are required for the main HTML content and
+# client-side JavaScript search
 outputs:
   home:
     - "HTML"
     - "RSS"
     - "JSON"
+
+# Site parameters
+params:
