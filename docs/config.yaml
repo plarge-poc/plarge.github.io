@@ -26,7 +26,6 @@ params:
   #customJS: "js/custom.js" # Include custom JS files
   readmore: true # Show "Read more" button in list if true
   mainSections:
-    - about
     - posts
   style:
     vars:
