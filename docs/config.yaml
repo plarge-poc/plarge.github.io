@@ -34,7 +34,9 @@ params:
   logo:
     subtitle: "Artisan développeur .NET et agile"
   sidebar:
-    home: "right"
+    home: false
+    list: "right"
+    single: "right"
     widgets:
       - "search"
       - "recent"
@@ -62,3 +64,10 @@ menu:
     pre: <i class='fa fa-heart'></i>
     url: /about/
     weight: 20
+  - identifier: posts
+    name: Blog
+    params:
+      class: highlight-menu-item
+    pre: <i class='fa fa-heart'></i>
+    url: /posts/
+    weight: 30    
