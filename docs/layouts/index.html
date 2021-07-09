@@ -1,27 +1,35 @@
-{{ define "main" }}
-<main class="main list" role="main">
+<!DOCTYPE html>
+<html lang="{{ .Site.Language.Lang }}">
+  <head>
+    <title>{{- .Site.Title -}}</title>
 
-    {{- with .Content }}
-	<div class="content main__content clearfix">
-		{{ . }}
-	</div>
-	{{- end }}
+    {{ $siteDescription := .Site.Params.description }}
+    {{ if (index .Site.Data .Site.Language.Lang).site }}
+      {{ $siteConfig := (index .Site.Data .Site.Language.Lang).site }}
+      {{ if $siteConfig.description }}
+        {{ $siteDescription = $siteConfig.description }}
+      {{ end }}
+    {{ end }}
+    <meta name="description" content="{{ $siteDescription }}" />
+    
+    <!------ ADD COMMON HEADERS -------->
+    {{- partial "header.html" . -}}
 
-    {{ $paginator := .Paginate (where .Site.RegularPages "Type" "in" .Site.Params.mainSections) }}
-	{{- range $paginator.Pages }}
-		{{- .Render "summary" }}
-	{{- end }}
-	{{- if and (eq $paginator.TotalNumberOfElements 0) (not $.Content) }}
-		<div class="warning">
-			{{ partial "svg/files.svg" (dict "class" "warning__icon") }}
-			<h3 class="warning__headline">{{ T "noposts_warning_title" | safeHTML }}</h3>
-			<div class="warning__text">
-				<p class="warning__description">{{ T "noposts_warning_description" | safeHTML }}</p>
-				<p class="warning__tip">{{ T "noposts_warning_tip" | safeHTML }}</p>
-			</div>
-		</div>
-	{{ end }}
+    <!-- import index page specific headers -->
 
-</main>
-{{ partial "pagination.html" . }}
-{{ end }}
+    <!--================= custom style overrides =========================-->
+    
+  </head>
+  <body data-spy="scroll" data-target="#top-navbar" data-offset="100">
+
+    <div>
+      <h1>Hello index page</h1>
+    </div>
+
+    <!--- ADD FOOTER ----------------------->
+
+    <!--- ADD COMMON SCRIPTS --------------->
+
+    <!--- ADD INDEX PAGE SPECIFIC SCRIPTS -->
+  </body>
+</html>

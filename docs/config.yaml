@@ -4,9 +4,9 @@ canonifyURLs: true
 
 resourceDir: ../resources
 
-module:
-  imports:
-  - path: github.com/vimux/mainroad
+#module:
+#  imports:
+#  - path: github.com/vimux/mainroad
   
 # At least HTML and JSON are required for the main HTML content and
 # client-side JavaScript search
