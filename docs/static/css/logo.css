@@ -1,0 +1,27 @@
+.logo {
+	padding: 25px;
+}
+
+.logo__link {
+	display: inline-block;
+}
+
+.logo__title {
+	font-size: 32px;
+	font-size: 2rem;
+	font-weight: 700;
+	line-height: 1;
+	color: #000;
+}
+
+.logo__tagline {
+	display: inline-block;
+	padding-top: 10px;
+	margin-top: 10px;
+	font-size: 14px;
+	font-size: .875rem;
+	font-weight: 700;
+	line-height: 1;
+	color: #e6af2e;	/*{{ $highlightColor }};*/
+	border-top: 1px solid #ebebeb;
+}

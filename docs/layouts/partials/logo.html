@@ -1,0 +1,65 @@
+{{/* by default, don't use any logo */}}
+{{ $mainLogo := "" }}
+{{ $invertedLogo := "" }}
+
+{{/*  if custom logo has been provided, use them  */}}
+{{ if site.Params.logo.main }}
+  {{ $mainLogo = site.Params.logo.main }}
+{{ end }}
+{{ if site.Params.logo.inverted }}
+  {{ $invertedLogo = site.Params.logo.inverted }}
+{{ end }}
+
+{{/* resize the logos. don't resize svg because it is not supported */}}
+{{ if $mainLogo }}
+  {{ $mainLogo = resources.Get $mainLogo}}
+  {{ if and $mainLogo (ne $mainLogo.MediaType.SubType "svg") }}
+    {{ $mainLogo = $mainLogo.Resize "42x" }}
+  {{ end }}
+  {{ $mainLogo = $mainLogo.RelPermalink}}
+{{ end }}
+
+{{ if $invertedLogo }}
+  {{ $invertedLogo = resources.Get $invertedLogo}}
+  {{ if and $invertedLogo (ne $invertedLogo.MediaType.SubType "svg")}}
+    {{ $invertedLogo = $invertedLogo.Resize "42x" }}
+  {{ end }}
+  {{ $invertedLogo = $invertedLogo.RelPermalink}}
+{{ end }}
+
+{{- $logoTitle := .Site.Params.title }}
+{{ if (index site.Data site.Language.Lang).site.title }}
+  {{ $logoTitle = (index site.Data site.Language.Lang).site.title }}
+{{ end }}
+
+{{- $logoSubtitle := .Site.Params.subtitle }}
+{{ if (index site.Data site.Language.Lang).site.subtitle }}
+  {{ $logoSubtitle = (index site.Data site.Language.Lang).site.subtitle }}
+{{ end }}
+
+{{- if or $logoTitle $mainLogo }}
+	{{/* Defined when logo is mixed (image + text) */}}
+	{{- $logoMix := and $mainLogo $logoTitle -}}
+
+	<link rel="stylesheet" href="{{ "/css/logo.css" | relURL }}"/>
+
+	<div class="logo{{ with $logoMix }} logo--mixed{{ end }}">
+		<a class="logo__link" href="{{ "" | relLangURL }}"{{ with $logoTitle }} title="{{ . }}"{{ end }} rel="home">
+			{{ with $mainLogo -}}
+				<div class="logo__item logo__imagebox">
+					<img class="logo__img" src="{{ . | relURL }}">
+				</div>
+			{{- end -}}
+			{{ with $logoTitle -}}
+				<div class="logo__item logo__text">
+					<div class="logo__title">{{ . }}</div>
+					{{ with $logoSubtitle }}
+						<div class="logo__tagline">
+							{{ . }}
+						</div>
+					{{ end }}
+				</div>
+			{{- end }}
+		</a>
+	</div>
+{{- end }}

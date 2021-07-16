@@ -1,0 +1,34 @@
+{{/*  variables for enabling/disabling various features  */}}
+{{ $blogEnabled   := site.Params.features.blog.enable   | default false }}
+{{ $notesEnabled  := site.Params.features.notes.enable  | default false }}
+
+{{/*  keep backward compatibility for blog post  */}}
+{{ if site.Params.enableBlogPost }}
+  {{ $blogEnabled = true }}
+{{ end }}
+
+{{ $sections := site.Data.sections }}
+{{ if (index site.Data site.Language.Lang).sections }}
+  {{ $sections = (index site.Data site.Language.Lang).sections }}
+{{ end }}
+
+<nav class="menu">
+	<button class="menu__btn" aria-haspopup="true" aria-expanded="false" tabindex="0">
+		<span class="menu__btn-title" tabindex="-1">{{ T "menu_label" }}</span>
+	</button>
+	<ul class="menu__list">
+		{{- $currentNode := . }}
+		{{- range .Site.Menus.main }}
+		{{- if .Name }}
+		<li class="menu__item{{ if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }} menu__item--active{{ end }}">
+			<a class="menu__link" href="{{ .URL }}">
+				{{ .Pre }}
+				<span class="menu__text">{{ .Name }}</span>
+				{{ .Post }}
+			</a>
+		</li>
+		{{- end }}
+		{{- end }}
+	</ul>
+</nav>
+

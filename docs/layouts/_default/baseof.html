@@ -6,10 +6,18 @@
     <!------ ADD COMMON HEADERS -------->
     {{- partial "header.html" . -}}
 
+    <!------ ADD PAGE SPECIFIC HEADERS ------->
+    {{ block "header" . }} {{ end }}
+
   </head>
 
   <body data-spy="scroll" data-target="#TableOfContents" data-offset="80">
     <div>
+      <!----- ADD MENU --------------->
+      {{ block "menubar" . }} {{ end }}
+
+
+
       <h1>baseof page</h1>
     </div>
   </body>

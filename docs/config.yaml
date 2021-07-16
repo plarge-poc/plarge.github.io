@@ -17,57 +17,15 @@ outputs:
     - "JSON"
 
 languageCode: "en-us"
-title: "Pierre Large"
 
 # Site parameters
 params:
-  description: "Pierre Large, artisan développeur" # Site description. Used in meta description
-  #customCSS: "css/custom.css" # Include custom CSS files
-  #customJS: "js/custom.js" # Include custom JS files
-  readmore: true # Show "Read more" button in list if true
-  mainSections:
-    - about
-    - posts
-  style:
-    vars:
-      highlightColor: "#e6af2e"
+  title: Pierre Large
+  subtitle: artisan developpeur .NET et agile.
+  
+  # Provide logos for your site. The inverted logo will be used in the initial
+  # transparent navbar and the main logo will be used in the non-transparent navbar.
   logo:
-    subtitle: "Artisan développeur .NET et agile"
-  sidebar:
-    home: false
-    list: "right"
-    single: "right"
-    widgets:
-      - "search"
-      - "recent"
-      - "categories"
-      - "taglist"
-  widgets:
-    recent_num: 5 # Set the number of articles in the "Recent articles" widget
-    categories_counter: false # Enable counter for each category in "Categories" widget
-    tags_counter: false # Enable counter for each tag in "Tags" widget
-
-# Menu parameters
-menu:
-  main:
-  - identifier: home
-    name: Home
-    params:
-      class: highlight-menu-item
-    pre: <i class='fa fa-heart'></i>
-    url: /
-    weight: 1
-  - identifier: about
-    name: About
-    params:
-      class: highlight-menu-item
-    pre: <i class='fa fa-heart'></i>
-    url: /about/
-    weight: 20
-  - identifier: posts
-    name: Blog
-    params:
-      class: highlight-menu-item
-    pre: <i class='fa fa-heart'></i>
-    url: /posts/
-    weight: 30    
+    main: /images/site/main-logo.png
+    inverted: /images/site/inverted-logo.png
+    favicon: /images/site/favicon.png
