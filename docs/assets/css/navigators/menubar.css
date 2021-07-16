@@ -1,0 +1,58 @@
+{{- $highlightColor := .Site.Params.style.vars.highlightColor | default (.Site.Params.highlightColor | default "#e22d30") -}}
+
+.menu__list {
+	list-style: none;
+	background: #2a2a2a;
+}
+
+.menu__item:hover {
+	background: {{ $highlightColor }};
+}
+
+.menu__item:first-child {
+	border: 0;
+}
+
+.menu__item--active {
+	background: {{ $highlightColor }};
+}
+
+.menu__link {
+	display: block;
+	padding: 10px 15px;
+	padding: .625rem .9375rem;
+	font-weight: 700;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.menu__link:hover {
+	color: #fff;
+}
+
+@media screen and (min-width: 767px) {
+	.menu {
+		border-bottom: 5px solid {{ $highlightColor }};
+	}
+
+	.menu__btn {
+		display: none;
+	}
+
+	.menu__list,
+	.js .menu__list {
+		position: relative;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-flex-wrap: wrap;
+		flex-wrap: wrap;
+		visibility: visible;
+		border: 0;
+		-webkit-transform: none;
+		transform: none;
+	}
+
+	.menu__item {
+		border-left: 1px solid rgba(255, 255, 255, .1);
+	}
+}

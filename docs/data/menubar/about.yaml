@@ -1,0 +1,6 @@
+# section information
+menu:
+  name: About
+  id: about
+  enable: true
+  weight: 1
